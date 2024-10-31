@@ -21,7 +21,7 @@ public class LaptopOOP {
         Laptop laptopAnto = new Laptop();
 
         // set nilai property
-        laptopAnto.pemilik = "Anto";
+        laptopAnto.pemilik = "Nafilah";
         laptopAnto.merk = "HP";
         laptopAnto.ukuranLayar = 13.5;
 

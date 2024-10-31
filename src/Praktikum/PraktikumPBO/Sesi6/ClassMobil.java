@@ -7,6 +7,12 @@ class mobil {
     String warna;
     int kecepatan;
 
+    mobil(String warna, int kecepatan) {
+        this.warna = warna;
+        this.kecepatan = kecepatan;
+        cekKecepatan(); // langsung panggil cekKecepatan untuk menetapkan aktivitas
+    }
+
     // pembuatan method untuk cekKecepatan
     void cekKecepatan() {
         if (kecepatan==0) {
@@ -27,7 +33,7 @@ class mobil {
 
 public class ClassMobil {
     public static void main(String[] args) {
-        mobil mobilku = new mobil();
+        mobil mobilku = new mobil("Merah", 400);
         mobilku.kecepatan = 5000;
         mobilku.warna = "Merah";
         mobilku.cekKecepatan();

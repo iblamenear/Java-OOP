@@ -1,6 +1,6 @@
 package Praktikum.PraktikumPBO.Sesi6;
 
-class calculator {
+class Calculator {
     // atribut (operan1 dan operan2)
     public double operan1;
     public double operan2;
@@ -48,7 +48,7 @@ class calculator {
 
 public class CalculatorMain {
     public static void main(String[] args) {
-        calculator calc = new calculator();
+        Calculator calc = new Calculator();
         // Setting nilai
         calc.isiOperan1(10.0);
         calc.isiOperan2(4.0);
