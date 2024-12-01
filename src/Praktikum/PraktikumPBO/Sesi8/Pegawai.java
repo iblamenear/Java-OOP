@@ -7,6 +7,6 @@ public class Pegawai {
 
     public void menampilkan() {
         System.out.println("Menampilkan nama, id pegawai, gaji dan tugas");
-        System.out.println("============================================================");
+        System.out.println("=================================================================");
     }
 }

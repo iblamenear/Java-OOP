@@ -8,7 +8,7 @@ public class Satpam extends Pegawai {
     }
 
     public void tugas() {
-        System.out.println("Tugas : Menjaga keamanan didalam dan diluar franchise");
-        System.out.println("======================================================");
+        System.out.println("Tugas       : Menjaga keamanan didalam dan diluar franchise");
+        System.out.println("=============================================================");
     }
 }
