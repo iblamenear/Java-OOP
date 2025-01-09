@@ -1,6 +1,6 @@
 package Praktikum.PraktikumPBO.Sesi12.Quiz3.Nomor4;
 
-public class Main {
+public class MainAnimal {
     public static void main(String[] args) {
         // Membuat objek Mamalia
         Mamalia mamalia = new Mamalia("Kucing");
