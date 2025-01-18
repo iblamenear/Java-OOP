@@ -1,6 +1,6 @@
 package Praktikum.PraktikumPBO.Sesi12.Quiz3.Nomor1;
 
-public class Main {
+public class MainDosen {
     public static void main(String[] args) {
         Dosen dosen = new Dosen("11510", "Arief Ichwani, ST, MT");
         Rektor rektor = new Rektor("11511", "Nugroho Budhisantosa , ST.MMSI", 2010);

@@ -1,6 +1,6 @@
 package Praktikum.PraktikumPBO.Sesi12.Quiz3.Nomor2;
 
-public class Main {
+public class MainGojek {
     public static void main(String[] args) {
         // Objek Gojek
         Gojek gojek = new Gojek();
